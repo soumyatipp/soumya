@@ -51,6 +51,7 @@ public class accountdetailspage
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		saveandcontinue_button.click();
 		Reporter.log("clicked on button",true);
+		Reporter.log("clciked on button but it;s not clicked",true);
 	}
 
 }
